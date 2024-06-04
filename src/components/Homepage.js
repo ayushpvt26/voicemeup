@@ -55,7 +55,7 @@ export default function Homepage() {
                {voices.map((voice, index) => (<option key={index} value={index}>{voice.name}</option>))}
            </select></div>
       <div className='main-content'>
-        
+      
         {transcript}
       </div>
       <div className='btn-style'>
