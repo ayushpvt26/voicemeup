@@ -49,7 +49,7 @@ export default function Homepage() {
   return (
    <div className='main-page'>
        <h1>Echoscribe Studio</h1>
-
+<p></p>
        <div className='btn-style'>
        <select value={selectedVoice ? voices.indexOf(selectedVoice) : ''} onChange={handleVoiceChange}>
                {voices.map((voice, index) => (<option key={index} value={index}>{voice.name}</option>))}
