@@ -59,7 +59,7 @@ export default function Homepage() {
         {transcript}
       </div>
       <div className='btn-style'>
-        <button>Copy</button>
+      
         <button onClick={handleStartListening}>Start</button>
         <button onClick={handleStopListening}>Stop</button>
         <button onClick={handleSpeak}>Speak</button>
